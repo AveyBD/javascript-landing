@@ -1,2 +1,3 @@
-# javascript-landing
-Javascript landing Website Without using Javascript and framework
+# Javascript landing Page Without using Javascript and framework
+
+*Doing For Fun*
