@@ -17,7 +17,7 @@ body {
 /* nav design  */
 header{
     height: 100vh;
-    
+    background-image: url('/assets/images/background.png');
 }
 nav {
     display: flex;
