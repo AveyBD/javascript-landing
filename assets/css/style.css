@@ -15,10 +15,15 @@ body {
 }
 
 /* nav design  */
-header{
+header {
     height: 100vh;
     background-image: url('/assets/images/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0,0,0,.5);
+    background-blend-mode: overlay;
 }
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -36,9 +41,10 @@ nav>ul {
 }
 
 nav>ul>li {
-    margin: 10px;
+    margin: 20px;
 }
 
 nav>ul>li>a {
     text-decoration: none;
+    color: whitesmoke;
 }
