@@ -49,3 +49,10 @@ nav>ul>li>a {
     color: whitesmoke;
     padding: 10px 10px;
 }
+
+/* hero design start  */
+.hero{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+}
