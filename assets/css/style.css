@@ -69,6 +69,10 @@ nav>ul>li>a {
     color: white;
 }
 
+.hero > .heroLeft > h1{
+    font-size: 50px;
+}
+
 .heroRight img{
     width: 100%;
 }
