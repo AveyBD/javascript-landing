@@ -2,8 +2,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 /* base design  */
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* nav design  */
+header{
+    height: 100vh;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    align-items: center;
+}
+
+nav>.logo img {
+    height: 70px;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+}
+
+nav>ul>li {
+    margin: 10px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
 }
