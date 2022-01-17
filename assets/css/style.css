@@ -20,7 +20,7 @@ header {
     background-image: url('/assets/images/background.png');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0,0,0,.5);
+    background-color: rgba(0, 0, 0, .5);
     background-blend-mode: overlay;
 }
 
@@ -58,21 +58,21 @@ nav>ul>li>a {
 }
 
 /* hero design start  */
-.hero{
+.hero {
     height: calc(100vh - 120px);
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: center;
 }
 
-.heroLeft{
+.heroLeft {
     color: white;
 }
 
-.hero > .heroLeft > h1{
+.hero>.heroLeft>h1 {
     font-size: 50px;
 }
 
-.heroRight img{
+.heroRight img {
     width: 100%;
 }
