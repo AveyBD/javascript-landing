@@ -56,3 +56,7 @@ nav>ul>li>a {
     grid-template-columns: 2fr 1fr;
     align-items: center;
 }
+
+.heroLeft{
+    color: white;
+}
