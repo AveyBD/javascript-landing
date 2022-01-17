@@ -52,6 +52,7 @@ nav>ul>li>a {
 
 /* hero design start  */
 .hero{
+    height: calc(100vh - 120px);
     display: grid;
     grid-template-columns: 2fr 1fr;
     align-items: center;
@@ -59,4 +60,8 @@ nav>ul>li>a {
 
 .heroLeft{
     color: white;
+}
+
+.heroRight img{
+    width: 100%;
 }
