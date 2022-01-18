@@ -78,6 +78,25 @@ nav>ul>li>a {
     font-size: 50px;
 }
 
+.mainButton{
+    outline: 0;
+    border: 0;
+    padding: 15px 20px;
+    background-color: yellow;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px 1px green;
+    position: relative;
+    top: 0;
+
+}
+.mainButton:active{
+    top: 5px;
+    box-shadow: 0 0 0;
+}
+
 .heroRight img {
     width: 100%;
 }
